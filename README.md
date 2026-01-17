@@ -114,4 +114,4 @@ None currently! If you find a bug, please open an issue.
 
 ---
 
-**Made with 💜 for productivity enthusiasts**
+**Made with 💜 for productivity people**

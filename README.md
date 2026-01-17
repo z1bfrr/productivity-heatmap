@@ -106,11 +106,11 @@ None currently! If you find a bug, please open an issue.
 
 ## 💡 Future Enhancements
 
-- [ ] Export data to CSV/JSON
-- [ ] Set daily time goals
-- [ ] Custom website categories/tags
-- [ ] Monthly calendar view
-- [ ] Browser sync support
+- Export data to CSV/JSON
+- Set daily time goals
+- Custom website categories/tags
+- Monthly calendar view
+- Browser sync support
 
 ---
 

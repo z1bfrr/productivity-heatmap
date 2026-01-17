@@ -1,0 +1,21 @@
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.cache/
+
+# Node modules (if you add any build tools later)
+node_modules/
+
+# Backup files
+*.backup
+popup-mono-styles.css

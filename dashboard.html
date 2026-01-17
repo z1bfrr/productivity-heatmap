@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Productivity Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dashboard-body">
+
+    <div class="dashboard-container">
+
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <div class="header-title">
+                    <h1>⏱ Activity Dashboard</h1>
+                    <p class="header-subtitle">Last 7 Days</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Overview -->
+        <section class="stats-overview">
+            <div class="stat-card">
+                <div class="stat-icon">📊</div>
+                <div class="stat-content">
+                    <div class="stat-label">Total This Week</div>
+                    <div id="weekTotal" class="stat-value">0h 0m</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📈</div>
+                <div class="stat-content">
+                    <div class="stat-label">Daily Average</div>
+                    <div id="dailyAvg" class="stat-value">0h 0m</div>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⭐</div>
+                <div class="stat-content">
+                    <div class="stat-label">Most Active Day</div>
+                    <div id="mostActiveDay" class="stat-value">-</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heatmap Section -->
+        <section class="heatmap-section">
+            <div class="section-header">
+                <h2>Weekly Heatmap</h2>
+                <p class="section-desc">Activity intensity by day</p>
+            </div>
+            <div id="heatmap" class="heatmap-grid"></div>
+        </section>
+
+        <!-- Domains Section -->
+        <section class="domains-section">
+            <div class="section-header">
+                <h2>Time by Website</h2>
+                <p class="section-desc">Total time spent per domain this week</p>
+            </div>
+            <div id="domainsList" class="domains-list"></div>
+        </section>
+
+
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

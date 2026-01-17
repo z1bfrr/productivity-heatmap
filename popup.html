@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Heatmap</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="popup-body">
+  <div class="popup-container">
+
+    <!-- Header -->
+    <header class="popup-header">
+      <div class="header-icon">⏱</div>
+      <div class="header-text">
+        <h1>Activity Tracker</h1>
+        <p class="subtitle">Today's Summary</p>
+      </div>
+    </header>
+
+    <!-- Total Time Display -->
+    <div class="total-time-card">
+      <div class="time-display">
+        <div id="totalTime" class="time-value">0h 0m</div>
+        <div class="time-label">Total Active Time</div>
+      </div>
+    </div>
+
+    <!-- Top Sites Section -->
+    <div class="sites-section">
+      <div class="section-header">
+        <span class="section-title">Top Sites</span>
+        <span class="section-count" id="siteCount">0</span>
+      </div>
+      <div id="sitesList" class="sites-list">
+        <div class="empty-state">
+          <div class="empty-icon">📊</div>
+          <div class="empty-text">Start browsing to see stats</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dashboard Button -->
+    <div class="action-section">
+      <button id="dashboardBtn" class="dashboard-btn">
+        <span>View Dashboard</span>
+        <span class="btn-arrow">→</span>
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="popup-footer">
+      <div class="footer-icon">🔒</div>
+      <span>100% Local & Private</span>
+    </footer>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
